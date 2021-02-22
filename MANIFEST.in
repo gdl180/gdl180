@@ -1,0 +1,10 @@
+include LICENSE
+graft lidarts/static
+graft lidarts/templates
+graft lidarts/socket
+graft lidarts/translations
+graft lidarts/utils
+graft migrations
+graft tests
+global-exclude *.pyc
+recursive-include lidarts/game/ *.py
